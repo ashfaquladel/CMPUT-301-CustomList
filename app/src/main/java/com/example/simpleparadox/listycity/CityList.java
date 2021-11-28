@@ -53,7 +53,7 @@ public class CityList {
         {
             throw new IllegalArgumentException();
         }
-        cities.delete(city);
+        cities.remove(city);
     }
 
 }
